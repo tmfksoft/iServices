@@ -1,0 +1,15 @@
+; Required Configuration Items
+; You can use this feature to expand the software.
+; @ = Block Name, # = Block Value
+; Block Values have different types. text = Text Value, int = Numeric Value, file = File Address, email = Email Value
+; The Default type is Text.
+; Global Value Requirements can be defined before any Block Requirement items. See the Version item below
+#version int
+@link
+#linkname text
+#hostname text
+#port int
+#pass text
+@core
+#modules text
+#lang text
